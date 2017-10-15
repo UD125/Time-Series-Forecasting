@@ -11,7 +11,6 @@ new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"
 if(length(new.packages)) install.packages(new.packages, repos="http://cran.rstudio.com/")
 library(forecast)
 library(tseries)
-kpss.test
 library(ggplot2)
 library(caTools)
 library(MASS)
